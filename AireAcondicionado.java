@@ -17,19 +17,19 @@ public class AireAcondicionado{
         return temperatura;
     }
     
-    public void setTemperatura(double nuevaTemperatura){
+    public void setIncremento(double nuevoIncremento){
         temperatura =  nuevaTemperatura;
     }
     
     public void subirTemperatura(){   
         if (temperatura + incremento <= max ){
-        temperatura = temperatura + incremento;
+            temperatura = temperatura + incremento;
        }
     }
     
     public void bajarTemperatura(){ 
         if (temperatura - incremento >= min ){
-        temperatura = temperatura - incremento;
+            temperatura = temperatura - incremento;
        }
     }
     
