@@ -18,7 +18,7 @@ public class AireAcondicionado{
     }
     
     public void setIncremento(double nuevoIncremento){
-        temperatura =  nuevaTemperatura;
+        incremento =  nuevoIncremento;
     }
     
     public void subirTemperatura(){   
